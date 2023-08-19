@@ -7,7 +7,7 @@ const Nav = () => {
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          padding: "16px 0",
+          padding: "8px 0",
           margin: "0 auto",
         }}
       >

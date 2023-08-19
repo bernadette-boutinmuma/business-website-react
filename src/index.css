@@ -28,8 +28,6 @@ body {
 }
 
 h2 {
-  /* height: 120px; */
-  /* padding-bottom: 40px; */
   display: flex;
   align-items: flex-end;
 }
