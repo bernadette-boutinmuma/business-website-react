@@ -1,5 +1,4 @@
 import { bannerImgStyle, imageMuskStyle, textContentCtnStyle } from "../constants/general"
-import Section from "./general/Section"
 
 const WhatWeDo = () => {
   return (
