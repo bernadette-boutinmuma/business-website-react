@@ -41,4 +41,6 @@ p {
 .imgCtn {
   border-radius: 8px;
   overflow: hidden;
+  background-position: "center";
+  background-size: cover;
 }
