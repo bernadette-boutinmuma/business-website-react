@@ -8,7 +8,7 @@ const ContactUs = () => {
   const [form] = Form.useForm<TContactUsForm>()
 
   const onFinish = () => {
-    const emailLink = new URL("mailto:linkfang@outlook.com")
+    const emailLink = new URL("mailto:bernadette.boutinmuma@outlook.com")
     const { subject, content } = form.getFieldsValue()
     console.log({ emailLink })
     emailLink.searchParams.append("subject", subject)
