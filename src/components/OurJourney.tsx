@@ -1,4 +1,4 @@
-import Section from "./general/Section";
+import Section from "./general/Section"
 
 const OurJourney = () => {
   return (
@@ -34,7 +34,7 @@ const OurJourney = () => {
         safety and sustainability of their products.
       </p>
     </Section>
-  );
-};
+  )
+}
 
-export default OurJourney;
+export default OurJourney

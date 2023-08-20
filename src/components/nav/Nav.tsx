@@ -1,6 +1,15 @@
 const Nav = () => {
   return (
-    <div style={{ backgroundColor:'#fff', boxShadow: "0 0 16px rgba(0,0,0,0.1)", position: "fixed", inset: "0 0 0 0", bottom: 'unset' }}>
+    <div
+      style={{
+        zIndex: 100,
+        backgroundColor: "#fff",
+        boxShadow: "0 0 16px rgba(0,0,0,0.1)",
+        position: "fixed",
+        inset: "0 0 0 0",
+        bottom: "unset",
+      }}
+    >
       <div
         style={{
           maxWidth: 1280,
@@ -22,7 +31,7 @@ const Nav = () => {
         </nav>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Nav;
+export default Nav

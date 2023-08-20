@@ -1,12 +1,13 @@
-import "./App.css";
-import OurJourney from "./components/OurJourney";
-import Nav from "./components/nav/Nav";
+import "./App.css"
+import Banner from "./components/Banner"
+import OurJourney from "./components/OurJourney"
+import Nav from "./components/nav/Nav"
 
 function App() {
   return (
     <>
       <Nav />
-      
+      <Banner />
       <OurJourney />
 
       <h2 id="our-mission">Our Mission</h2>
@@ -105,7 +106,7 @@ function App() {
         consulting service with respect to product chemistry.
       </p>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
