@@ -2,7 +2,7 @@ import Section from "./general/Section"
 
 const OurJourney = () => {
   return (
-    <Section id="our-journey" backgroundColor="#f8f8f8">
+    <Section id="our-journey">
       <img src="./images/bernadette.jpg" style={{ borderRadius: 8, float: "left", margin: "30px 32px 0 0" }} />
       <h2>PChem Consulting Inc.'s Journey: A Decade of Expertise in Pesticide Regulations and Compliance</h2>
       <p>
