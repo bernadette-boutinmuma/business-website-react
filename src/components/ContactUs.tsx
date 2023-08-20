@@ -16,7 +16,7 @@ const ContactUs = () => {
     window.location.assign(emailLink)
   }
   return (
-    <Section id="contact-us" backgroundColor={COLORS.lightGrey}>
+    <Section id="contact-us" style={{ backgroundColor: COLORS.lightGrey }}>
       <div style={{ display: "flex", gap: 48 }}>
         <div style={{ flex: 1 }}>
           <h2 style={{ marginTop: 0 }}>Contact Us Today</h2>

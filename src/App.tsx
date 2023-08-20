@@ -5,11 +5,11 @@ import Location from "./components/Location"
 import OurJourney from "./components/OurJourney"
 import OurMission from "./components/OurMission"
 import OurServices from "./components/OurServices"
-import WhatWeDo from "./components/WhatWeDo"
 import Nav from "./components/nav/Nav"
 import { ConfigProvider } from "antd"
 import { COLORS } from "./constants/general"
 import SizeContext from "antd/es/config-provider/SizeContext"
+import WhatWeDo from "./components/WhatWeDo"
 
 function App() {
   return (

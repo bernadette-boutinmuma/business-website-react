@@ -1,27 +1,32 @@
+import { bannerImgStyle, imageMuskStyle, textContentCtnStyle } from "../constants/general"
 import Section from "./general/Section"
 
 const WhatWeDo = () => {
   return (
-    <Section id="what-we-do">
-      <div style={{ display: "flex", gap: 48, margin: "16px 0" }}>
-        <div
-          className="imgCtn"
-          style={{ backgroundImage: "url('https://source.unsplash.com/collection/1802604')", flex: 1, height: 400 }}
-        ></div>
-        <div style={{ flex: 1 }}>
-          <h2>What We Do</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa rem qui ut esse, sint illum, doloribus
-            voluptas et molestias molestiae quas corporis saepe fugit quis corrupti quos praesentium porro vel.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iure eos molestias voluptatibus fugiat quas
-            perferendis optio alias nulla cupiditate. Accusantium quos nostrum autem debitis sequi veritatis cumque,
-            adipisci esse.
-          </p>
-        </div>
+    <div style={{ position: "relative", height: 500, maxWidth: "auto" }}>
+      <div
+        style={{
+          ...bannerImgStyle,
+          backgroundImage: "url(https://source.unsplash.com/collection/54992954)",
+        }}
+      ></div>
+      <div style={{ ...imageMuskStyle, backgroundColor: "#000", opacity: 0.5 }}></div>
+      <div style={{ ...textContentCtnStyle, maxWidth: 1280, margin: "0 auto" }}>
+        <h2>What We Do</h2>
+        <p>
+          PChem Regulatory Consulting is a leading provider of pesticide regulatory consulting services based in Canada.
+          Our team of experts has extensive experience in navigating the complex regulatory landscape of the pesticide
+          industry, ensuring that our clients' products meet all necessary requirements for market approval.
+        </p>
+        <p>
+          At PChem, we are committed to providing our clients with personalized, high-quality consulting services that
+          are tailored to their specific needs. We work closely with our clients to understand their unique challenges
+          and goals, and develop customized solutions that help them achieve success in the highly competitive pesticide
+          market. Whether you are a small startup or a large multinational corporation, PChem has the expertise and
+          experience to help you navigate the regulatory landscape and succeed in the pesticide industry.
+        </p>
       </div>
-    </Section>
+    </div>
   )
 }
 

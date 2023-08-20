@@ -3,7 +3,7 @@ import Section from "./general/Section"
 
 const OurServices = () => {
   return (
-    <Section id="our-services" backgroundColor={COLORS.lightGrey}>
+    <Section id="our-services" style={{ backgroundColor: COLORS.lightGrey }}>
       <div style={{ display: "flex", flexDirection: "column", gap: 32, margin: "16px 0" }}>
         <h2 style={{ marginTop: 0 }}>Our Services</h2>
         <div
