@@ -11,6 +11,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 a {
@@ -30,11 +31,10 @@ body {
 h2 {
   display: flex;
   align-items: flex-end;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 p {
-  font-size: 1.1rem;
   margin: 16px 0;
 }
 
