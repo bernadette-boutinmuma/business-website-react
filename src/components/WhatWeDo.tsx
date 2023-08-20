@@ -4,6 +4,7 @@ const WhatWeDo = () => {
   return (
     <div style={{ position: "relative", height: 500, maxWidth: "auto" }}>
       <div
+        id="what-we-do"
         style={{
           ...bannerImgStyle,
           backgroundImage: "url(https://source.unsplash.com/collection/54992954)",

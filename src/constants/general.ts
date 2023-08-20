@@ -1,6 +1,6 @@
 export const COLORS = {
   primary: "#268534",
-  lightGrey: "#f8f8f8",
+  lightGrey: "#f2f2f2",
 } as const
 
 export const CONTACT_US_FORM = {
