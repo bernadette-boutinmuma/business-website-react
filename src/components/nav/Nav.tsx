@@ -20,7 +20,7 @@ const Nav = () => {
           margin: "0 auto",
         }}
       >
-        <img src="./logo-s.png" alt="PChem Regulatory Consultant logo" width={150} />
+        <img src="./logo-s.png" alt="PChem Regulatory Consultant logo" height={42} />
         <nav style={{ display: "flex", justifyContent: "center", gap: 32 }}>
           <a href="#our-journey">Our Journey</a>
           <a href="#our-mission">Our Mission</a>

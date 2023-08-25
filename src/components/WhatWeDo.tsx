@@ -7,7 +7,8 @@ const WhatWeDo = () => {
         id="what-we-do"
         style={{
           ...bannerImgStyle,
-          backgroundImage: "url(https://source.unsplash.com/collection/54992954)",
+          backgroundImage:
+            "url(https://images.unsplash.com/photo-1574105079770-ad48d14dca10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80)",
         }}
       ></div>
       <div style={{ ...imageMuskStyle, backgroundColor: "#000", opacity: 0.5 }}></div>
