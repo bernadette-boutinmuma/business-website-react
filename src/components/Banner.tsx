@@ -7,7 +7,7 @@ const Banner = () => {
         style={{
           ...bannerImgStyle,
           backgroundImage:
-            "url(https://images.unsplash.com/photo-1680458841726-358cd1c28d0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwxN3x8UGVzdGljaWRlJTIwUmVndWxhdG9yeSUyMENvbnN1bHRpbmd8ZW58MHx8fHwxNjkwNTYyODA3fDA&ixlib=rb-4.0.3&q=80&w=1080)",
+            "url(https://images.unsplash.com/photo-1488330890490-c291ecf62571?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=70)",
         }}
       ></div>
       <div style={imageMuskStyle}></div>

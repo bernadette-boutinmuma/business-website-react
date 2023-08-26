@@ -18,9 +18,8 @@ export const bannerImgStyle = {
 export const imageMuskStyle = {
   position: "absolute",
   inset: 0,
-  backgroundColor: COLORS.primary,
-  opacity: 0.75,
-  filter: "brightness(40%)",
+  backgroundColor: "#000",
+  opacity: 0.25,
 } as const
 
 export const textContentCtnStyle = {
