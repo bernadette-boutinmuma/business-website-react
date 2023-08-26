@@ -4,7 +4,13 @@ const OurJourney = () => {
   return (
     <Section id="our-journey">
       <div style={{ margin: "16px 0" }}>
-        <img src="./bernadette.jpg" style={{ borderRadius: 8, float: "left", margin: "30px 32px 0 0" }} />
+        <img
+          src="./bernadette.jpg"
+          alt="Bernadette's photo"
+          width={200}
+          height={200}
+          style={{ borderRadius: 8, float: "left", margin: "30px 32px 0 0" }}
+        />
         <h2>PChem Consulting Inc.'s Journey: A Decade of Expertise in Pesticide Regulations and Compliance</h2>
         <p>
           Established in Ottawa, Canada in 2014, PChem Consulting Inc. is the brainchild of Bernadette Boutin-Muma, a
