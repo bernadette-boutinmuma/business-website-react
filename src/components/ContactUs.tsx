@@ -18,7 +18,7 @@ const ContactUs = () => {
   return (
     <Section id="contact-us" style={{ backgroundColor: COLORS.lightGrey }}>
       <div style={{ display: "flex", gap: 48, flexWrap: "wrap" }}>
-        <div style={{ flex: 1, minWidth: 470 }}>
+        <div style={{ flex: 1, minWidth: 320 }}>
           <h2 style={{ marginTop: 0 }}>Contact Us Today</h2>
           <p>
             Fill out the form below to get in touch with our team. We are here to answer any questions you may have and
@@ -26,7 +26,7 @@ const ContactUs = () => {
           </p>
         </div>
 
-        <Form form={form} onFinish={onFinish} layout="vertical" style={{ flex: 1, minWidth: 470, marginTop: 4 }}>
+        <Form form={form} onFinish={onFinish} layout="vertical" style={{ flex: 1, minWidth: 320, marginTop: 4 }}>
           <Form.Item label="Subject" name={CONTACT_US_FORM.subject} rules={[{ required: true }]}>
             <Input size="large" />
           </Form.Item>

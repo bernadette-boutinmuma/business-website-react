@@ -5,7 +5,7 @@ const OurMission = () => {
   return (
     <Section id="our-mission" style={{ backgroundColor: COLORS.lightGrey }}>
       <div style={{ display: "flex", gap: 48, margin: "16px 0", flexWrap: "wrap" }}>
-        <div style={{ flex: 1, minWidth: 470 }}>
+        <div style={{ flex: 1, minWidth: 320 }}>
           <h2>Our Mission</h2>
           <p>
             PChem Regulatory Consulting is a leading consulting firm specializing in pesticide regulatory affairs. Our
@@ -21,7 +21,7 @@ const OurMission = () => {
         </div>
         <div
           className="imgCtn"
-          style={{ backgroundImage: "url('./images/our-mission.jpg')", flex: 1, minWidth: 470, height: 400 }}
+          style={{ backgroundImage: "url('./images/our-mission.jpg')", flex: 1, minWidth: 320, height: 400 }}
         ></div>
       </div>
     </Section>
