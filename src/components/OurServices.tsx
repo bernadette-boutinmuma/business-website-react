@@ -4,10 +4,13 @@ import Section from "./general/Section"
 import { Card, Tabs } from "antd"
 
 const iconStyle = { fontSize: 48, color: COLORS.primary, marginTop: 24 } as const
+const cardStyle = { flex: 1, minWidth: 308 } as const
+const cardCtnStyle = { display: "flex", gap: 32, flexWrap: "wrap" } as const
 
 const areasTabContent = (
-  <div style={{ display: "grid", gap: 32, gridTemplateColumns: "1fr 1fr 1fr" }}>
+  <div style={cardCtnStyle}>
     <Card
+      style={cardStyle}
       hoverable
       cover={
         <img
@@ -24,6 +27,7 @@ const areasTabContent = (
     </Card>
 
     <Card
+      style={cardStyle}
       hoverable
       cover={
         <img
@@ -40,6 +44,7 @@ const areasTabContent = (
     </Card>
 
     <Card
+      style={cardStyle}
       hoverable
       cover={
         <img
@@ -58,7 +63,7 @@ const servicesTabContent = (
   <>
     <p style={{ textAlign: "center" }}>PMRA Product application /New pesticide registration</p>
 
-    <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
+    <div style={{ display: "flex", gap: 16, flexWrap: "wrap", justifyContent: "center" }}>
       <Card>
         <Card.Meta title="Product amendments" />
       </Card>
@@ -103,8 +108,8 @@ const benefitsTabContent = (
   <>
     <p style={{ textAlign: "center" }}>Why your business will benefit from our service?</p>
 
-    <div style={{ display: "grid", gap: 32, gridTemplateColumns: "1fr 1fr 1fr" }}>
-      <Card cover={<CrownOutlined style={iconStyle} />}>
+    <div style={cardCtnStyle}>
+      <Card style={cardStyle} cover={<CrownOutlined style={iconStyle} />}>
         <Card.Meta
           style={{ textAlign: "center" }}
           title="Expertise"
@@ -112,7 +117,7 @@ const benefitsTabContent = (
         />
       </Card>
 
-      <Card cover={<FieldTimeOutlined style={iconStyle} />}>
+      <Card style={cardStyle} cover={<FieldTimeOutlined style={iconStyle} />}>
         <Card.Meta
           style={{ textAlign: "center" }}
           title="Value and timely service"
@@ -120,7 +125,7 @@ const benefitsTabContent = (
         />
       </Card>
 
-      <Card cover={<WalletOutlined style={iconStyle} />}>
+      <Card style={cardStyle} cover={<WalletOutlined style={iconStyle} />}>
         <Card.Meta
           style={{ textAlign: "center" }}
           title="Reasonable Cost"

@@ -16,11 +16,13 @@ const Nav = () => {
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          padding: "8px 0",
+          padding: "8px 48px",
           margin: "0 auto",
         }}
       >
-        <img src="./logo-s.png" alt="PChem Regulatory Consultant logo" height={42} width={99.5} />
+        <a href="#">
+          <img src="./logo-s.png" alt="PChem Regulatory Consultant logo" height={42} width={99.5} />
+        </a>
         <nav style={{ display: "flex", justifyContent: "center", gap: 32 }}>
           <a href="#our-journey">Our Journey</a>
           <a href="#our-mission">Our Mission</a>

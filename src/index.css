@@ -43,3 +43,22 @@ p {
   background-position: "center";
   background-size: cover;
 }
+
+.journeyImg {
+  border-radius: 8px;
+  float: left;
+  margin: 10px 32px 0 0;
+}
+
+@media (max-width: 670px) {
+  .journeyContentCtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .journeyImg {
+    float: none;
+    margin: 0 0 16px 0;
+  }
+}
