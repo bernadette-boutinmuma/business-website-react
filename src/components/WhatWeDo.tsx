@@ -13,13 +13,13 @@ const WhatWeDo = () => {
       ></div>
       <div style={{ ...imageMuskStyle, backgroundColor: "#000", opacity: 0.5 }}></div>
       <div style={{ ...textContentCtnStyle, position: "relative", maxWidth: 1280, margin: "0 auto", padding: "48px" }}>
-        <h2 style={{ zIndex: 110 }}>What We Do</h2>
-        <p style={{ zIndex: 110 }}>
+        <h2>What We Do</h2>
+        <p>
           PChem Regulatory Consulting is a leading provider of pesticide regulatory consulting services based in Canada.
           Our team of experts has extensive experience in navigating the complex regulatory landscape of the pesticide
           industry, ensuring that our clients' products meet all necessary requirements for market approval.
         </p>
-        <p style={{ zIndex: 110 }}>
+        <p>
           At PChem, we are committed to providing our clients with personalized, high-quality consulting services that
           are tailored to their specific needs. We work closely with our clients to understand their unique challenges
           and goals, and develop customized solutions that help them achieve success in the highly competitive pesticide
