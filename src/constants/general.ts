@@ -19,7 +19,7 @@ export const imageMuskStyle = {
   position: "absolute",
   inset: 0,
   backgroundColor: "#000",
-  opacity: 0.25,
+  opacity: 0.4,
 } as const
 
 export const textContentCtnStyle = {

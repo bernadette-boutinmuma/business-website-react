@@ -9,7 +9,7 @@ type TSectionProps = {
 const Section = ({ id, children, style }: TSectionProps) => {
   return (
     <div style={{ padding: " 0 0 48px 0", ...style }}>
-      <div style={{ maxWidth: 1280, margin: "0 auto", padding: "0 48px" }}>
+      <div style={{ maxWidth: 1280, margin: "0 auto", padding: "0 32px" }}>
         <div id={id} style={{ height: 48 }}></div>
         {children}
       </div>

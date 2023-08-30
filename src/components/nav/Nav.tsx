@@ -28,7 +28,7 @@ const Nav = () => {
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          padding: "8px 48px",
+          padding: "8px 32px",
           margin: " 0 auto",
         }}
       >

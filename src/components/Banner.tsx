@@ -15,7 +15,7 @@ const Banner = () => {
         <h1 style={{ fontSize: "3rem", lineHeight: 1.2 }}>
           Streamline Your <br /> Pesticide Compliance
         </h1>
-        <p style={{ fontSize: "1.5rem", margin: 0 }}>
+        <p style={{ fontSize: "1.5rem", margin: '0 16px' }}>
           Expert consulting to ensure regulatory compliance and <br /> navigate complex pesticide regulations.
         </p>
       </div>

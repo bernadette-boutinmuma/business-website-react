@@ -6,6 +6,7 @@ import { Card, Tabs } from "antd"
 const iconStyle = { fontSize: 48, color: COLORS.primary, marginTop: 24 } as const
 const cardStyle = { flex: 1, minWidth: 308 } as const
 const cardCtnStyle = { display: "flex", gap: 32, flexWrap: "wrap" } as const
+const paragraphStyle = { textAlign: "center", marginTop: 0 } as const
 
 const areasTabContent = (
   <div style={cardCtnStyle}>
@@ -61,7 +62,7 @@ const areasTabContent = (
 
 const servicesTabContent = (
   <>
-    <p style={{ textAlign: "center" }}>PMRA Product application /New pesticide registration</p>
+    <p style={paragraphStyle}>PMRA Product application /New pesticide registration</p>
 
     <div style={{ display: "flex", gap: 16, flexWrap: "wrap", justifyContent: "center" }}>
       <Card>
@@ -106,7 +107,7 @@ const servicesTabContent = (
 
 const benefitsTabContent = (
   <>
-    <p style={{ textAlign: "center" }}>Why your business will benefit from our service?</p>
+    <p style={paragraphStyle}>Why your business will benefit from our service?</p>
 
     <div style={cardCtnStyle}>
       <Card style={cardStyle} cover={<CrownOutlined style={iconStyle} />}>
