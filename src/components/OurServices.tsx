@@ -62,14 +62,14 @@ const areasTabContent = (
 
 const servicesTabContent = (
   <>
-    <p style={paragraphStyle}>PMRA Product application /New pesticide registration</p>
+    <p style={paragraphStyle}>PMRA Product application/New pesticide registration</p>
 
     <div style={{ display: "flex", gap: 16, flexWrap: "wrap", justifyContent: "center" }}>
       <Card>
         <Card.Meta title="Product amendments" />
       </Card>
       <Card>
-        <Card.Meta title="Product Chemistry- Five batch data assessment" />
+        <Card.Meta title="Product Chemistry - Five batch data assessment" />
       </Card>
       <Card>
         <Card.Meta title="Statement of Product Specification Form (SPSF) verification" />

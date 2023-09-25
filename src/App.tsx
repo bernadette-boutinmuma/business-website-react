@@ -3,7 +3,6 @@ import Banner from "./components/Banner"
 import ContactUs from "./components/ContactUs"
 import Location from "./components/Location"
 import OurJourney from "./components/OurJourney"
-import OurMission from "./components/OurMission"
 import OurServices from "./components/OurServices"
 import Nav from "./components/nav/Nav"
 import { ConfigProvider } from "antd"
@@ -23,7 +22,6 @@ function App() {
       <Nav />
       <Banner />
       <OurJourney />
-      <OurMission />
       <WhatWeDo />
       <OurServices />
       <Location />
