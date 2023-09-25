@@ -14,7 +14,7 @@ const WhatWeDo = () => {
         }}
       ></div>
       <div style={{ ...imageMuskStyle, backgroundColor: "#000", opacity: 0.65 }}></div>
-      <div style={{ ...textContentCtnStyle, position: "relative", maxWidth: 1280, margin: "0 auto", padding: "32px" }}>
+      <div style={{ ...textContentCtnStyle, position: "relative", maxWidth: 1280, margin: "0 auto", padding: "72px" }}>
         <h2>What We Do</h2>
         <p style={paragraphStyle}>
           PChem Regulatory Consulting is a leading provider of pesticide regulatory consulting services based in Canada.

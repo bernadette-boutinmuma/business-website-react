@@ -3,7 +3,7 @@ import Section from "./general/Section"
 const Location = () => {
   return (
     <Section id="location">
-      <div style={{ margin: "16px auto" }}>
+      <div style={{ margin: "0 auto" }}>
         <h2 style={{ marginTop: 0 }}>Location</h2>
 
         <iframe
