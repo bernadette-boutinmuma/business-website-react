@@ -87,7 +87,7 @@ const servicesTabContent = (
         <Card.Meta title="Assist with US EPA Pesticide Product Chemistry requirements" />
       </Card>
       <Card>
-        <Card.Meta title="Efficacy trial reports-Value Summary" />
+        <Card.Meta title="Efficacy trial reports - Value Summary" />
       </Card>
       <Card>
         <Card.Meta title="Data Compensation/Data negotiation (PPIP)" />
