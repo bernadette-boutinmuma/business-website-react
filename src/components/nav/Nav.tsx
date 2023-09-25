@@ -37,7 +37,6 @@ const Nav = () => {
         </a>
         <nav className="navCtn">
           <a href="#our-journey">Our Journey</a>
-          <a href="#our-mission">Our Mission</a>
           <a href="#what-we-do">What We Do</a>
           <a href="#our-services">Our Services</a>
           <a href="#location">Location</a>
@@ -69,9 +68,6 @@ const Nav = () => {
         >
           <a style={anchorStyle} href="#our-journey">
             Our Journey
-          </a>
-          <a style={anchorStyle} href="#our-mission">
-            Our Mission
           </a>
           <a style={anchorStyle} href="#what-we-do">
             What We Do
