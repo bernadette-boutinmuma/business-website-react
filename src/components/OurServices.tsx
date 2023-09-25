@@ -122,7 +122,7 @@ const benefitsTabContent = (
         <Card.Meta
           style={{ textAlign: "center" }}
           title="Value and timely service"
-          description="PChem collaborates with a team that is knowledgeable of the PMRA process. We treat your applications on a case by case basis ensuring that they meet the essential requirements before submission."
+          description="Pchem Reg Consulting is flexible consulting company that can configure a skilled team around your project while guaranteeing compliance to PMRA requirements and enhancing your submission chance of success."
         />
       </Card>
 
@@ -130,7 +130,7 @@ const benefitsTabContent = (
         <Card.Meta
           style={{ textAlign: "center" }}
           title="Reasonable Cost"
-          description="PChem collaborates with a team that is knowledgeable of the PMRA process. We treat your applications on a case by case basis ensuring that they meet the essential requirements before submission."
+          description="We are highly competitive and believe that we offer a quality and valued service going beyond just what’s necessary. We can assist with the work that you might not have the capacity to do in-house."
         />
       </Card>
     </div>
